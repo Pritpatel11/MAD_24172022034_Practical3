@@ -54,7 +54,10 @@
         android:hint="123414552"
         android:inputType="phone"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
+<<<<<<< HEAD
         app:layout_constraintEnd_toStartOf="@+id/button1"
+=======
+>>>>>>> ab83878be499a58538344523cde7cad184198372
         app:layout_constraintStart_toEndOf="@id/textView2"
         app:layout_constraintTop_toTopOf="@id/textView2" />
 

@@ -98,7 +98,11 @@
         android:id="@+id/Text_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="SIGN UP"
+=======
+        android:text="Sinup"
+>>>>>>> ab83878be499a58538344523cde7cad184198372
         android:textColor="@color/purple"
         app:layout_constraintTop_toTopOf="@id/Text_4"
         app:layout_constraintStart_toEndOf="@id/Text_4"
