@@ -90,8 +90,8 @@ app/
 Below are example screenshots demonstrating app functionalities:
 
 <p float="left">
-  <img src="img.png" alt="Main Activity with buttons" width="300"/>
-  <img src="img_1.png" alt="Login Activity" width="300"/>
+  <img src="app/login.png" alt="Main Activity with buttons" width="300"/>
+  <img src="app/main.png" alt="Login Activity" width="300"/>
 </p>
 
 ---
