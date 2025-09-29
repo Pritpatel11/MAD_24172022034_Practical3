@@ -14,7 +14,6 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="120dp"
         android:text="webURL:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -51,13 +50,9 @@
         android:layout_width="188dp"
         android:layout_height="42dp"
         android:ems="10"
-        android:hint="123414552"
+        android:hint="999999999"
         android:inputType="phone"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
-<<<<<<< HEAD
-        app:layout_constraintEnd_toStartOf="@+id/button1"
-=======
->>>>>>> ab83878be499a58538344523cde7cad184198372
         app:layout_constraintStart_toEndOf="@id/textView2"
         app:layout_constraintTop_toTopOf="@id/textView2" />
 
@@ -67,7 +62,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="https://sites.google.com"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView"
         app:layout_constraintEnd_toStartOf="@id/button"
         app:layout_constraintStart_toEndOf="@id/textView" />
