@@ -50,11 +50,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 val intent = Intent(Intent.ACTION_VIEW, Uri.parse(finalUrl))
                 startActivity(intent)
-<<<<<<< HEAD
-              }
-=======
             }
->>>>>>> ab83878be499a58538344523cde7cad184198372
         }
 
         // Call
@@ -76,11 +72,7 @@ class MainActivity : AppCompatActivity() {
 
         // Gallery
         galleryButton.setOnClickListener {
-<<<<<<< HEAD
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("content://media/internal/images/media"))
-=======
-            val intent = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
->>>>>>> ab83878be499a58538344523cde7cad184198372
+            val intent = Intent( Intent.ACTION_VIEW, Uri.parse("content://media/internal/images/media"))
             startActivity(intent)
         }
 
